@@ -1,6 +1,6 @@
 <?php
 /**
- * ItemTypeInterface.php
+ * BlockTypeInterface.php
  *
  * @since 15/03/18
  * @author gseidel
@@ -8,7 +8,7 @@
 
 namespace Enhavo\Bundle\FormBundle\DynamicForm;
 
-interface ItemInterface
+interface BlockInterface
 {
     public function getName();
 
